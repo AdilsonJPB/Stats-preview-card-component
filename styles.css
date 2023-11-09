@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.textos h1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-family: Inter;
+    font-size: 40px;
+}
+
+.textos .purple {
+    color: hsl(277, 64%, 61%);
+}
+
+.textos p {
+    padding-left: 60px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+}
+
+.info {
+    padding-top: 80px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.info .bold {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Lexend Deca;
+}
+
+.info .complement {
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: Lexend Deca;
+}
+
+img {
+    border-radius: 0 2% 2% 0;
+}
+
+.img {
+    forced-color-adjust: hsl(277, 64%, 61%);
+    width: 540px;
+    filter:opacity()
+}
